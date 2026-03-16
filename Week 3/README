@@ -1,0 +1,26 @@
+Feature Engineering - California Housing Dataset
+Proyek ini merupakan tugas pekan ke-3 yang berfokus pada tahapan Feature Engineering menggunakan dataset perumahan California. Tujuan utamanya adalah mempersiapkan data mentah agar lebih optimal sebelum dimasukkan ke dalam model pembelajaran mesin (Machine Learning).
+
+📋 Deskripsi Tugas
+Tugas ini mencakup beberapa teknik penting dalam pengolahan data, antara lain:
+- Outlier Handling: Mendeteksi dan menangani data pencilan (outlier) menggunakan metode InterQuartile Range (IQR).
+- Data Distribution Analysis: Visualisasi distribusi data sebelum dan sesudah penanganan outlier untuk memastikan integritas data.
+- Data Scaling: Mengubah skala fitur numerik agar berada dalam rentang yang seragam.
+- Encoding: Mengubah variabel kategorikal menjadi representasi numerik yang dapat diproses oleh algoritma.
+
+🛠️ Teknologi yang Digunakan
+- Python sebagai bahasa pemrograman utama.
+- Pandas & NumPy untuk manipulasi dan analisis data.
+- Matplotlib & Seaborn untuk visualisasi data.
+- Scikit-Learn (sklearn) untuk tahap preprocessing (Scaling, Encoding, dan Data Splitting).
+- SciPy untuk analisis statistik (seperti plot Q-Q).
+
+📂 Struktur Proyek
+- Assignment_Week 3.ipynb: Notebook utama berisi kode dan penjelasan langkah demi langkah.
+- california_dataset.csv: Dataset yang digunakan dalam analisis (pastikan file ini tersedia di repositori jika ingin dijalankan ulang).
+
+🚀 Langkah-langkah Feature Engineering
+Beberapa poin utama yang dikerjakan dalam notebook ini meliputi:
+- Analisis Outlier: Melakukan looping untuk mengecek plot distribusi dan outlier pada kolom seperti MedInc, HouseAge, AveRooms, AveBedrms, dan AveOccup.
+- Handling IQR: Memilih kolom tertentu untuk dibersihkan dari outlier menggunakan metode IQR dan melakukan validasi ulang pada distribusinya.
+- Preprocessing Akhir: Melakukan scaling dengan MinMaxScaler dan encoding variabel dengan LabelEncoder untuk memastikan data siap latih.
