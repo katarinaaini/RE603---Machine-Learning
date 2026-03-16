@@ -1,0 +1,119 @@
+#Python Programming Exercises
+
+Repository ini berisi kumpulan latihan dasar hingga menengah dalam pemrograman Python. Materi yang dibahas meliputi tipe data dasar, pembuatan fungsi, serta konsep **Object-Oriented Programming (OOP)**.
+
+Tujuan dari repository ini adalah untuk memahami konsep dasar Python melalui praktik langsung menggunakan Jupyter Notebook.
+
+---
+
+# Struktur Repository
+
+## File 1 — `Week2_Tipe_Data.ipynb`
+
+Notebook ini membahas tipe data dasar (primitive data types) dalam Python.
+
+Materi yang dipelajari meliputi:
+
+* Integer
+* Float
+* Complex number
+* String
+
+Beberapa hal yang dilakukan dalam notebook ini:
+
+* Mendeklarasikan variabel dengan berbagai tipe data
+* Menampilkan nilai variabel menggunakan `print()`
+* Mengecek tipe data menggunakan fungsi `type()`
+* Memahami cara Python merepresentasikan angka dan teks
+
+Notebook ini bertujuan untuk memberikan pemahaman dasar mengenai bagaimana data disimpan dan digunakan dalam Python.
+
+---
+
+## File 2 — `Hands_On_Function_in_Python.ipynb`
+
+Notebook ini membahas pembuatan dan penggunaan function dalam Python.
+
+Topik yang dipelajari:
+
+* Struktur dasar function
+* Function dengan parameter
+* Function dengan default parameter
+* Function yang mengembalikan nilai menggunakan `return`
+
+Contoh praktik yang dilakukan:
+
+* Membuat function sederhana untuk mencetak pesan
+* Membuat function dengan parameter input
+* Menggunakan parameter default
+* Membuat function untuk melakukan operasi matematika sederhana
+
+Tujuan dari notebook ini adalah memahami bagaimana function digunakan untuk membuat kode yang lebih modular dan reusable.
+
+---
+
+## File 3 — `Hands_On_Main_Principles_of_OOP.ipynb`
+
+Notebook ini membahas konsep utama Object-Oriented Programming (OOP) di Python.
+
+Materi utama yang dibahas:
+
+* Konsep dasar OOP
+* Encapsulation (Enkapsulasi)
+* Getter dan Setter
+* Inheritance (pewarisan class)
+
+Contoh implementasi yang dibuat:
+
+* Membuat class `User`
+* Menggunakan atribut yang bersifat protected
+* Mengakses atribut menggunakan method getter
+* Mengubah nilai atribut menggunakan setter
+* Membuat class turunan seperti `PremiumUser`
+
+Notebook ini bertujuan untuk memperkenalkan cara membangun program berbasis objek di Python.
+
+---
+
+## File 4 — `Hands_On_OOP_Paradigm_Concepts.ipynb`
+
+Notebook ini menjelaskan konsep paradigma OOP secara lebih fundamental, termasuk hubungan antara class dan object.
+
+Topik yang dipelajari:
+
+* Definisi class dalam Python
+* Konsep object sebagai instance dari class
+* Penggunaan constructor `__init__`
+* Atribut dan method dalam class
+
+Contoh implementasi menggunakan studi kasus objek mobil, dimana:
+
+* Class `Mobil` dibuat sebagai blueprint
+* Object seperti `mobil_ayah` dan `mobil_adik` dibuat dari class tersebut
+* Setiap objek memiliki atribut seperti jenis mobil, warna, dan status apakah mobil dapat menyala
+
+Notebook ini membantu memahami bagaimana class digunakan sebagai blueprint untuk membuat objek dalam OOP.
+
+---
+
+# Teknologi yang Digunakan
+
+* Python
+* Jupyter Notebook
+
+---
+
+# Tujuan Pembelajaran
+
+Melalui latihan-latihan dalam repository ini, diharapkan dapat memahami:
+
+* Dasar tipe data Python
+* Cara membuat dan menggunakan function
+* Konsep dasar Object-Oriented Programming
+* Implementasi class dan object dalam Python
+
+---
+
+# Author
+
+Repository ini dibuat sebagai bagian dari proses pembelajaran pemrograman Python.
