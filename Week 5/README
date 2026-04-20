@@ -1,0 +1,109 @@
+# 🌸 Supervised Learning: Classification (Iris Dataset)
+
+## 📌 Deskripsi Proyek
+
+Proyek ini merupakan implementasi **Supervised Learning (Classification)** menggunakan dataset Iris.
+Tujuan utama dari proyek ini adalah untuk memahami proses analisis data, visualisasi, serta penerapan model machine learning untuk klasifikasi.
+
+
+## 📊 Dataset
+
+Dataset yang digunakan adalah **Iris Dataset**, yang berisi 150 data bunga dengan 3 kelas:
+
+* Setosa
+* Versicolor
+* Virginica
+
+### Fitur dalam dataset:
+
+* SepalLengthCm
+* SepalWidthCm
+* PetalLengthCm
+* PetalWidthCm
+* Species (target)
+
+
+## ⚙️ Tahapan Pengerjaan
+
+### 1. Import Library
+
+Library yang digunakan:
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+
+
+### 2. Data Understanding
+
+* Melihat struktur data (`info()`)
+* Menampilkan data awal (`head()`)
+* Mengecek missing value
+
+
+### 3. Data Preprocessing
+
+* Menangani missing value menggunakan mean:
+
+```python
+train['SepalLengthCm'] = train['SepalLengthCm'].fillna(train['SepalLengthCm'].mean())
+```
+
+
+### 4. Data Visualization
+
+Beberapa visualisasi yang digunakan:
+
+* Countplot untuk distribusi kelas
+* Pairplot untuk melihat hubungan antar fitur
+* Scatterplot untuk analisis pola data
+* Heatmap untuk korelasi
+
+
+### 5. Modeling (Logistic Regression)
+
+Model yang digunakan:
+
+* Logistic Regression dari scikit-learn
+
+Langkah:
+
+1. Menentukan fitur (X) dan target (y)
+2. Membagi data (train-test split)
+3. Melatih model
+4. Evaluasi model
+
+
+### 6. Evaluasi Model
+
+Menggunakan:
+* Confusion Matrix
+* Classification Report
+
+
+## 📈 Hasil
+
+Model berhasil melakukan klasifikasi terhadap data Iris berdasarkan fitur yang diberikan.
+Performa model dapat dilihat dari classification report dan confusion matrix.
+
+
+## 🧠 Insight
+
+* Dataset Iris sangat cocok untuk pembelajaran dasar klasifikasi
+* Fitur Petal memiliki pengaruh besar dalam membedakan kelas
+* Visualisasi membantu memahami pola sebelum modeling
+
+
+## 📁 Struktur Project
+
+```
+├── Supervised_Learning_Hands_On_Classification.ipynb
+├── README.md
+```
+
+
+## 👤 Author
+
+Dibuat untuk keperluan pembelajaran Machine Learning.
