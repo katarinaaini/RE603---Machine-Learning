@@ -1,0 +1,76 @@
+Supervised Learning - Regression (Hands-On)
+
+Repository ini berisi implementasi Supervised Learning (Regression) menggunakan Python dalam bentuk notebook interaktif. Proyek ini bertujuan untuk memahami alur lengkap machine learning mulai dari eksplorasi data hingga evaluasi model.
+
+📁 Dataset
+
+Dataset yang digunakan:
+
+USA Housing Dataset (USA_Housing.csv)
+
+Dataset ini berisi beberapa fitur seperti:
+-Average Area Income
+-Average Area House Age
+-Average Area Number of Rooms
+-Average Area Number of Bedrooms
+-Area Population
+-Price (target variable)
+
+🚀 Workflow yang Dilakukan
+
+Notebook ini mencakup tahapan berikut:
+
+1. Data Preparation
+Import library (NumPy, Pandas, Matplotlib, Seaborn, dll)
+Load dataset
+Cek struktur data
+
+2. Exploratory Data Analysis (EDA)
+Visualisasi distribusi data
+Korelasi antar variabel (heatmap)
+Analisis hubungan fitur dengan target
+
+3. Data Preprocessing
+Pemisahan fitur (X) dan target (y)
+Train-test split
+
+4. Modeling
+Menggunakan Linear Regression
+Training model dengan data training
+
+5. Evaluation
+Prediksi pada data training dan testing
+Perhitungan error (MSE, dll)
+Analisis performa model
+
+🛠️ Tools & Libraries
+Python 3.x
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn
+
+▶️ Cara Menjalankan
+
+Clone repository ini:
+git clone https://github.com/username/nama-repo.git
+
+Masuk ke folder project:
+cd nama-repo
+
+Jalankan Jupyter Notebook:
+jupyter notebook
+
+Buka file:
+Supervised_Learning_Hands_On_Regresi.ipynb
+📌 Catatan
+Pastikan dataset USA_Housing.csv tersedia di direktori yang sama dengan notebook.
+Jika menggunakan Google Colab, upload dataset terlebih dahulu sebelum menjalankan kode.
+🎯 Tujuan Pembelajaran
+
+Dengan project ini, diharapkan kamu bisa:
+-Memahami konsep dasar regresi
+-Melakukan EDA secara efektif
+-Mengimplementasikan model Linear Regression
+-Mengevaluasi performa model machine learning
