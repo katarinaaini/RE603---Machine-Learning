@@ -1,0 +1,72 @@
+🚢 Titanic Survival Classification - Supervised Learning
+Repositori ini berisi proyek Machine Learning (Supervised Learning) untuk melakukan klasifikasi pada dataset klasik Titanic. 
+Notebook ini mendemonstrasikan tahapan lengkap dari eksplorasi data (Exploratory Data Analysis / EDA), pemrosesan data (Feature Engineering), 
+pelatihan berbagai model klasifikasi, hingga Hyperparameter Tuning menggunakan GridSearchCV.
+
+📋 Daftar Isi
+- Deskripsi Proyek
+- Dataset
+- Teknologi & Library
+- Tahapan Proyek (Workflow)
+- Hasil Evaluasi Model
+
+📝 Deskripsi Proyek
+Tujuan utama dari proyek ini adalah memprediksi apakah seorang penumpang kapal Titanic selamat (Survived: 1) atau tidak (Survived: 0) 
+berdasarkan fitur-fitur seperti kelas tiket (Pclass), jenis kelamin (Sex), usia (Age), dan biaya tiket (Fare).
+
+Proyek ini membandingkan 3 algoritma klasifikasi dasar:
+- K-Nearest Neighbors (KNN)
+- Naive Bayes (GaussianNB)
+- Decision Tree
+
+Selain itu, proyek ini juga menunjukkan cara melakukan Hyperparameter Tuning pada model KNN untuk mencari kombinasi parameter terbaik.
+
+📊 Dataset
+Dataset yang digunakan adalah dataset Titanic (titanic.csv).
+- Target Variable: Survived (0 = Tidak Selamat, 1 = Selamat).
+- Fitur yang dipertahankan: Pclass, Sex, Age, SibSp, Parch, Fare, Embarked.
+- Fitur yang dihapus: PassengerId, Name, Ticket, Cabin (karena terlalu banyak missing values).
+
+🛠 Teknologi & LibraryProyek ini dibangun menggunakan Python dengan beberapa library utama:
+- pandas & numpy: Manipulasi dan komputasi data.
+- matplotlib & seaborn: Visualisasi data (EDA).
+- scikit-learn: Pembuatan model Machine Learning, evaluasi, dan Hyperparameter Tuning.
+
+🚀 Tahapan Proyek (Workflow)
+1. Exploratory Data Analysis (EDA):
+- Melihat rasio keselamatan penumpang.
+- Analisis keselamatan berdasarkan Jenis Kelamin dan Kelas Penumpang (Pclass).
+- Distribusi rentang usia penumpang menggunakan Histogram dan Boxplot.
+
+2. Feature Engineering & Preprocessing:
+- Imputasi Data: Mengisi nilai kosong (missing values) pada kolom Age berdasarkan rata-rata umur di masing-masing Pclass.
+- Data Cleansing: Menghapus kolom yang tidak relevan.
+- Encoding: Mengubah data kategorikal (Sex, Embarked) menjadi numerik menggunakan LabelEncoder.
+
+3. Data Splitting: Membagi data menjadi Training Set (70%) dan Testing Set (30%).
+
+4. Model Training & Evaluation: Melatih model KNN, Naive Bayes, dan Decision Tree, lalu mengevaluasinya 
+menggunakan matriks Accuracy, Precision, Recall, dan F1-Score.
+
+5. Prediction on New Data: Melakukan simulasi prediksi menggunakan data penumpang fiktif baru.
+
+6. Hyperparameter Tuning (GridSearchCV):
+- Mencari parameter terbaik untuk model KNN (menguji n_neighbors, weights, dan metric).
+- Menyimpan hasil Cross-Validation ke dalam file Excel (hasil_gridsearch_knn.xlsx).
+
+📈 Hasil Evaluasi Model
+Berdasarkan pengujian terhadap Test Set, berikut adalah tingkat akurasi (Accuracy) dari masing-masing model baseline:
+- Naive Bayes (GaussianNB) 78%
+- Decision Tree 77%
+- K-Nearest Neighbors (KNN) 71%
+
+Karena Naive Bayes memberikan hasil baseline terbaik, model ini digunakan untuk simulasi prediksi data baru di dalam notebook.
+
+Hasil Hyperparameter Tuning KNN:
+Setelah melakukan GridSearchCV, didapatkan parameter terbaik untuk KNN:
+- metric: 'manhattan'
+- n_neighbors: 3
+- weights: 'distance'
+
+(Model KNN yang telah di-tuning menghasilkan akurasi sebesar 72% pada data test).
+
