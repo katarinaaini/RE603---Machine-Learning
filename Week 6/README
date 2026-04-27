@@ -1,4 +1,5 @@
 🚢 Titanic Survival Classification - Supervised Learning
+
 Repositori ini berisi proyek Machine Learning (Supervised Learning) untuk melakukan klasifikasi pada dataset klasik Titanic. 
 Notebook ini mendemonstrasikan tahapan lengkap dari eksplorasi data (Exploratory Data Analysis / EDA), pemrosesan data (Feature Engineering), 
 pelatihan berbagai model klasifikasi, hingga Hyperparameter Tuning menggunakan GridSearchCV.
