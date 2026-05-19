@@ -19,9 +19,3 @@ Repository ini berisi materi perkuliahan Minggu 8 untuk Program Studi **D4 Tekni
 - **Python**
 - **scikit-learn** (untuk implementasi PCA, K-Means, dan DBSCAN)
 - **Matplotlib / Seaborn** (untuk visualisasi grafik evaluasi)
-
-## 📚 Buku Teks & Referensi Utama
-- Bishop, C.M. (2006). *Pattern Recognition and Machine Learning*. Springer.
-- Géron, A. (2022). *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow*. O'Reilly.
-- James, G. et al. (2021). *An Introduction to Statistical Learning*. Springer.
-- Dokumentasi Resmi `scikit-learn`.
