@@ -66,4 +66,3 @@ Pada bagian akhir, model terbaik digunakan untuk memprediksi probabilitas kesela
 4. Eksekusi sel kode secara berurutan dari atas ke bawah.
 
 ---
-*Catatan: Pastikan Anda menyalin atau mengunduh notebook ini terlebih dahulu ke drive mandiri sebelum melakukan modifikasi kode.*
